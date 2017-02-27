@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>web前端求职简历</title>
+    <style>
+        html {
+            -webkit-user-select: none;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2,h3,p {
+            margin: 0;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+        }
+        ul.fs-style {
+            list-style: disc;
+            padding-left: 20px;
+
+        }
+        .clear::after {
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .fs-header {
+            color: #4e7281;
+            margin-bottom: 20px;
+
+        }
+        .fs-header h1 {
+            font-size: 36px;
+            float: left;
+            padding: 4px 10px 4px 0;
+            border-right: 2px solid #4e7281;
+            /*font-family: '微软雅黑';*/
+            margin: 10px 0;
+        }
+        .fs-header>div.font {
+            float: left;
+            padding-left: 10px;
+            margin-top: 16px;
+        }
+        .fs-header>div.font p {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .fs-header>div.font p:nth-of-type(2){
+            font-size: 24px;
+        }
+
+        .fs-myself {
+            width: 980px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+        }
+        .fs-detail {
+            float:left;
+            width: 70%;
+        }
+        .fs-detail li {
+            display: inline-block;
+            width: 49%;
+        }
+        .fs-main-content {
+            font-family: '微软雅黑';
+        }
+        .fs-main-content h2 {
+            display: inline-block;
+            font-size: 18px;
+            background-color: #4e7281;
+            color: #fff;
+            padding: 0 16px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .fs-main-content h2::after {
+            content: '';
+            height: 1px;
+            width: 910px;
+            position: absolute;
+            left: 20px;
+            bottom: 0;
+            /*background-color: #a4dff2;*/
+            background-image: linear-gradient(to right,#4e7281, #ddd);
+        }
+        .fs-each-block ul {
+            padding: 20px;
+        }
+        .fs-each-block ul.fs-style {
+            padding-left: 40px;
+        }
+        .fs-each-block ul li {
+            margin-bottom: 6px;
+        }
+        img.touxiang {
+            width: 15%;
+            box-shadow: 0 0 4px 4px #999;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        ul.my-project p {
+            margin-top: 16px;
+            margin-bottom: 20px;
+            line-height: 2;
+
+        }
+        ul.my-project li span {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        ul.my-project li a {
+            font-family: cursive;
+            font-weight: 700;
+
+        }
+        ul.my-project li:nth-of-type(1) a{
+            margin-left: 100px;
+
+        }
+        ul.my-project li:nth-of-type(2) a{
+            margin-left: 54px;
+        }
+        ul.my-project li:nth-of-type(3) a{
+            margin-left: 132px;
+        }
+    </style>
+</head>
+<body>
+<section class="fs-myself">
+    <header class="fs-header clear">
+        <h1>个人简历</h1>
+        <div class="font">
+            <p>坚持做一件事，就一定能做好</p>
+            <p>Personal resume</p>
+        </div>
+        <div>
+
+        </div>
+    </header>
+    <div class="fs-main-content">
+        <ul>
+            <li class="fs-each-block">
+                <h2>基本信息</h2>
+                <div class="clear">
+                    <ul class="fs-detail">
+                        <li>姓名：陈继斌</li>
+                        <li>英文名：Francis</li>
+                        <li>名族：汉族</li>
+                        <li>性别：男</li>
+                        <li>出生日期：1992.09</li>
+                        <li>学历：本科</li>
+                        <li>身高、体重：181cm，68kg</li>
+                        <li>毕业院校：常州工学院</li>
+                        <li>专业：电子信息与电气工程</li>
+                        <li>工作经验：1.5年</li>
+                        <li>婚姻状况：未婚</li>
+                        <li>目前状态：就职于江苏天马网络科技集团</li>
+                        <li>联系电话：15061997812</li>
+                        <li>邮箱：363840817@qq.com</li>
+                    </ul>
+                    <img src="./boss.jpg" class="touxiang">
+                </div>
+            </li>
+            <li class="fs-each-block">
+                <h2>教育背景</h2>
+                <ul class="fs-style">
+                    <li>2011.09 - 2015.06 江苏省常州工学院 电子信息与电气工程（本科）</li>
+                    <li>2008.09 - 2011.06 江苏省连云港市海州高级中学（市重点高中）</li>
+                    <li>2005.09 - 2008.06 江苏省连云港市海州实验中学（市重点初中）</li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>专业技能</h2>
+                <ul class="fs-style">
+                    <li>掌握HTML,CSS,DOM,JSON,AJAX技术</li>
+                    <li>掌握jQuery,对原生Javascript有一定了解</li>
+                    <li>熟悉H5和CSS3</li>
+                    <li>了解过Vue.js,React.js,Angular.js等目前流行的前端模块化开发框架</li>
+                    <li>了解过Node.js，npm，以及前端脚手架工具yeoman</li>
+                    <li>了解过前端自动化工具webpack,gulp</li>
+                    <li>了解过Node.js的Express框架，以及NoSQL的mongodb数据库</li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>工作经历</h2>
+                <ul>
+                    <li>
+                        <time>2015.10 至今</time>
+                        <p>就职于江苏省连云港市天马网络发展有限公司技术部，从事前端开发，有大型电商平台前端开发的经验。</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>线上项目</h2>
+                <ul class="fs-style my-project">
+                    <li>
+                        <div>
+                            <span>幸运叶子微信端商城</span>
+                            <a href="http://m.xyyzi.com/">http://m.xyyzi.com/</a>
+                        </div>
+                        <p>
+                            这个项目是一个电商的微信端官方商城。我在这个项目中担任前端的开发工作，html结构，css样式和js效果实现和前后端数据交互AJAX都由我来编写，
+                            其中按照技术主管的要求用了jQuery Mobile框架，在编写的同时，我考虑到用户体验，在项目中运用了iScroll这个模拟滑动回弹的js插件，使其有一种在使用app的感觉。
+                            整个项目前端完成用了大约1个月的时间。通过这个项目，我熟悉了移动端前端的开发，对兼容多种尺寸的屏幕有了实战经验。
+                        </p>
+
+                    </li>
+                    <li>
+                        <div>
+                            <span>InterSport中国区官方商城</span>
+                            <a href="http://t.intersport.net.cn/">http://t.intersport.net.cn/</a>
+                        </div>
+                        <p>
+                            这个项目是InterSport中国区PC端的官方商城，类似于阿迪、耐克的官网。我负责整个网站的前端开发，这个项目比较简单，其中轮播图用了Swiper插件，模态框用了layer这
+                            个轻量级的插件，这帮助我节省了大量的时间。前端部分完成，用了大约两周的时间。通过这个项目，让我体会到用框架或者插件的好处，运用成熟的框架或者插件能大大缩短项目的工期。
+                        </p>
+
+                    </li>
+                    <li>
+                        <div>
+                            <span>中国运动户外网</span>
+                            <a href="http://www.ydhww.com/ms/outdoor/index.do">http://www.ydhww.com/ms/outdoor/index.do</a>
+                        </div>
+                        <p>
+                            这个项目是业务部门提出的一个运动户外门户网站，我负责整个门户网站的前端开发，其展示型的内容比较多，要求有点动画展示来点缀网站，其中用到了Swiper轮播图插件以及相适配的动画库，完成了需求方
+                            要求的动画效果。通过这个项目，对css动画，js动画有了一定的理解。
+                        </p>
+                    </li>
+                    <li>
+                        <div>
+                            <span>公司人事系统重构</span>
+                        </div>
+                        <p>
+                            这个项目用了目前流行的三大前端框架之一的vue.js来作为前端框架，搭配element-ui来进行后台管理系统的快速开发，在做项目的过程中不断学习vue相关插件文档：vue-router,vuex,axios,因为vue-cli脚手架出来的项目框架，其中运用到了webpack，然后对webpack也有了一定的了解和认识，才发现前端自动化流程是这么的神奇和强大，所以以后的研究重点就是主流三大框架并且运用到实践项目中，来提升项目的用户体验。
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>未来一年中的目标</h2>
+                <ul class="fs-style">
+                    <li>深入研究Vue.js,React.js,Angular.js其中一种前端模块化开发框架，并具备实战经验</li>
+                    <li>熟练运用webpack、gulp前端自动化开发工具，提高开发效率</li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>获得证书</h2>
+                <ul class="fs-style">
+                    <li>本科毕业设计（论文）二等奖</li>
+                    <li>本科毕业设计（论文）优秀团队奖</li>
+                    <li>大学英语4级（CET4）</li>
+                    <li>常州环球雅思培训结业证书</li>
+                    <li>校级运动会获奖证书（短跑，跳远，接力）</li>
+                </ul>
+            </li>
+            <li class="fs-each-block">
+                <h2>读过的书籍</h2>
+                <ul class="fs-style">
+                    <li>《锋利的jQuery》</li>
+                    <li>《JavaScript权威指南》</li>
+                    <li>《CSS权威指南》</li>
+                    <li>《CSS揭秘》</li>
+                </ul>
+
+            </li>
+
+            <li class="fs-each-block">
+                <h2>特长爱好</h2>
+                <ul class="fs-style">
+                    <li>听音乐</li>
+                    <li>看电影</li>
+                    <li>球类运动（擅长羽毛球）</li>
+                    <li>上网</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
